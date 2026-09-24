@@ -1,0 +1,110 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+/* Header */
+.upper {
+    background-color: #222;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.upper h1 {
+    margin-bottom: 20px;
+}
+
+
+/* Navigation */
+.head {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.head a {
+    color: white;
+    text-decoration: none;
+}
+
+.head a:hover {
+    text-decoration: underline;
+}
+
+
+/* Contact */
+.contact {
+    margin-top: 20px;
+}
+
+.contact a {
+    color: #66ccff;
+}
+
+
+/* Pictures */
+.Pictures {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Pictures h2 {
+    margin-bottom: 25px;
+}
+
+.Pictures figure {
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+}
+
+.Pictures img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Pictures figcaption {
+    width: 300px;
+    margin-top: 10px;
+}
+
+
+/* Video */
+.Video {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.Video h2 {
+    margin-bottom: 20px;
+}
+
+.Video video {
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 10px;
+}
+
+.audio {
+    margin-top: 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
